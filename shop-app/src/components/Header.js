@@ -12,7 +12,7 @@ const Header = () => {
     <Navbar bg="dark" version="dark" style={{height : '80px'}}>
       <Container>
         <Navbar.Brand>
-            <Link to="/" className='navbar-brand'>React Shop App</Link>
+            <Link to="shop-react-app/" className='navbar-brand'>React Shop App</Link>
         </Navbar.Brand>
         <Navbar.Text className='search'>
             <FormControl 
@@ -55,7 +55,7 @@ const Header = () => {
                           />
                         </span>
                       ))}
-                      <Link to="/cart">
+                      <Link to="shop-react-app/cart">
                         <Button style={{width : "95%", margin : '0 10px'}}>
                             Go To Cart
                         </Button>

@@ -8,8 +8,8 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/cart" element={<Cart/>}/>
+        <Route path="shop-react-app/" element={<Home />} />
+        <Route path="shop-react-app/cart" element={<Cart/>}/>
       </Routes>
     </BrowserRouter>
   );
